@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+    
+    <TableRow 
+        android:gravity="center"
+        android:background="@drawable/bottom_border">
+        
+         <TextView
+            android:id="@+id/noOrder"
+            android:layout_width="45dp"
+            android:layout_height="match_parent"
+            android:gravity="center|left"
+            android:layout_gravity="center"
+            android:textStyle="bold"
+            android:textSize="35sp"
+            android:layout_marginRight="15dp"
+            android:text="1)" />
+         
+        <TextView 
+            android:id="@+id/tv_otth_1"
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:background= "@drawable/ball_123"
+            android:text="1"
+            android:gravity="center"
+            android:textSize="20sp"
+            android:textColor="#FFFFFF"
+            android:textStyle="bold"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="5dp"
+            />
+        <TextView 
+            android:id="@+id/tv_otth_2"
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:background= "@drawable/ball_123"
+            android:text="2"
+            android:gravity="center"
+            android:textSize="20sp"
+            android:textColor="#FFFFFF"
+            android:textStyle="bold"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="5dp"
+            />
+        <TextView 
+            android:id="@+id/tv_otth_3"
+            android:layout_width="35dp"
+            android:layout_height="35dp" 
+            android:background= "@drawable/ball_123"
+            android:text="3"
+            android:gravity="center"
+            android:textSize="20sp"
+            android:textColor="#FFFFFF"
+            android:textStyle="bold"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="5dp"
+            />
+               
+              
+    </TableRow>
+ 
+ 
+</TableLayout>

@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/linearLayourMainCoin"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    
+ <TextView
+        android:id="@+id/textView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textSize="25sp"
+         android:layout_weight="1"
+        android:text="@string/titleCoins" />
+
+   	<LinearLayout
+   	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content"
+	    android:orientation="horizontal" 
+	    android:padding="3dp" 
+	    android:layout_weight="1"
+   	    >
+
+   		<EditText
+   		    android:id="@+id/Coin_NumberCube"
+   		    android:layout_width="157dp"
+   		    android:layout_height="wrap_content"
+   		    android:ems="10"
+   		    android:gravity="center"
+   		    android:hint="@string/Coin_Hint"
+   		    android:text="1"
+   		    android:layout_weight="1"
+   		    android:inputType="number" >
+
+   		    <requestFocus />
+   		</EditText>
+
+   		<TextView
+   		    android:id="@+id/textView2"
+   		    android:layout_width="wrap_content"
+   		    android:layout_height="match_parent"
+   		    android:gravity="right|center_vertical"
+   		    android:layout_weight="1"
+   		    android:text="@string/Coin_howMany"
+   		    android:textSize="15sp" />
+   	    
+   	</LinearLayout>
+ 
+   	<ScrollView 
+   	    android:layout_weight="60"
+        android:layout_width="match_parent"
+    	android:layout_height="match_parent"
+    	android:orientation="vertical" > 
+   	
+   	<GridLayout 
+	    android:id="@+id/GridLayout_coins"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:columnCount="5"
+	    android:rowCount="3"
+	    android:orientation="horizontal"
+	    android:layout_gravity="top|center"
+	    >
+        
+    </GridLayout>
+    
+</ScrollView>
+
+   	
+   	<Button
+   	    android:id="@+id/Coin_randNumbers"
+   	    android:layout_weight="1"
+   	    android:layout_width="match_parent"
+   	    android:layout_height="wrap_content"
+   	    android:layout_gravity="bottom"
+   	    android:text="@string/Coin_rand" />
+    
+</LinearLayout>

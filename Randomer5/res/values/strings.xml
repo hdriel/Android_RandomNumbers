@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">מספרים רנדומאליים</string>
+    <string name="about">אודות</string>
+    <string name="about_toast">
+        האלפיקציה מגרילה מספרים בצורה רנדומאלית \n 
+        לאפליקציה אין שום קשר למפעל הפיס או להגרלות שלו\n
+        בתודה : מפתח האפליקציה HB.
+        </string>
+    
+ 	<string name="titleMain">מגריל מספרים רנדומאלי</string>
+ 	
+    <string name="titleCubes">מספר קוביה רנדומאלי</string>
+    <string name="Cube_howMany">כמה קוביות להגריל: </string>
+ 	<string name="Cube_Hint">הכנס מספר </string>
+ 	<string name="Cube_rand">הגרל מספרים </string>
+ 	<string name="Cube_show">המספרים יוגרלו ויופיעו כאן </string>
+ 	
+ 	<string name="titleCoins">מספר מטבעות רנדומאלי</string>
+    <string name="Coin_howMany">כמה מטבעות להגריל: </string>
+ 	<string name="Coin_Hint">הכנס מספר </string>
+ 	<string name="Coin_rand">הגרל מספרים </string>
+ 	<string name="Coin_show">המספרים יוגרלו ויופיעו כאן </string>
+ 	
+ 	
+ 	<string name="titlePais">טבלת 777 רנדומאלית</string>
+    <string name="pais_howMany">כמה טבלאות להגריל: </string>
+ 	<string name="pais_Hint">הכנס מספר </string>
+ 	<string name="pais_rand">הגרל מספרים </string>
+ 	<string name="pais_show">המספרים יוגרלו ויופיעו כאן </string>
+ 	
+ 	<string name="titleLottery">טבלת לוטו רנדומאלית</string>
+    <string name="Lottery_howMany">כמה זוגות טבלאות להגריל: </string>
+ 	<string name="Lottery_Hint">הכנס מספר </string>
+ 	<string name="Lottery_rand">הגרל מספרים </string>
+ 	<string name="Lottery_show">המספרים יוגרלו ויופיעו כאן </string>
+ 
+ 	<string name="titleOneTwoThree">טבלת 123 רנדומאלית</string>
+    <string name="OneTwoThree_howMany">כמה טבלאות להגריל: </string>
+ 	<string name="OneTwoThree_Hint">הכנס מספר </string>
+ 	<string name="OneTwoThree_rand">הגרל מספרים </string>
+ 	<string name="OneTwoThree_show">המספרים יוגרלו ויופיעו כאן </string>
+ 	
+ 	<string name="titleChance">טבלת צ\'אנס רנדומאלית</string>
+    <string name="Chance_howMany">כמה טבלאות להגריל: </string>
+ 	<string name="Chance_Hint">הכנס מספר </string>
+ 	<string name="Chance_rand">הגרל מספרים </string>
+ 	<string name="Chance_show">המספרים יוגרלו ויופיעו כאן </string>
+ 	
+ 	<string name="titleAny">מספרים רנדומלים</string>
+    <string name="any_max">מקסימום:</string>
+ 	<string name="any_min">מינימום:</string>
+ 	<string name="any_norow">מס\' כדורים בשורה:</string>
+ 	<string name="any_rand">הגרל מספר</string>
+ 	<string name="any_checked">עם חזרות</string>
+ 	<string name="any_unchecked">ללא חזרות</string>
+ 	<string name="any_show">המספרים יוגרלו ויופיעו כאן </string>
+ 	<string name="any_full">כל המספרים כבר הוגרלו, תנסה לשנות את הטווח או לבצע הגרלה עם חזרות </string>
+ 	<string name="any_invalid_input">טווח המספרים שהזנת אינו חוקי </string>
+ 	
+ 	
+</resources>

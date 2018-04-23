@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+    
+    <TableRow 
+        android:gravity="center" 
+        android:background="@drawable/bottom_border">
+
+        <TextView
+            android:id="@+id/noOrder"
+            android:layout_width="45dp"
+            android:layout_height="match_parent"
+            android:gravity="center|left"
+            android:textStyle="bold"
+            android:textSize="35sp"
+            android:text="1)" />
+        
+        <ImageView 
+            android:id="@+id/iv_guar"
+            android:layout_width="50dp"
+            android:layout_height="70dp"
+            android:background= "@drawable/guar1"
+            android:gravity="center"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="5dp"
+            />
+       
+        <ImageView 
+            android:id="@+id/iv_lev"
+            android:layout_width="50dp"
+            android:layout_height="70dp"
+            android:background= "@drawable/lev1"
+            android:gravity="center"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="5dp"
+            />
+       
+       <ImageView 
+            android:id="@+id/iv_dym"
+            android:layout_width="50dp"
+            android:layout_height="70dp"
+            android:background= "@drawable/dym1"
+            android:gravity="center"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="5dp"
+            />
+       
+        <ImageView 
+            android:id="@+id/iv_clov"
+            android:layout_width="50dp"
+            android:layout_height="70dp"
+            android:background= "@drawable/clov1"
+            android:gravity="center"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="5dp"
+            />
+       
+       
+              
+    </TableRow>
+ 
+ 
+</TableLayout>

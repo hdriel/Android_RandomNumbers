@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+   	android:id="@+id/linearLayourMainPais"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/titlePais"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textSize="25sp"
+         android:layout_weight="1"
+        android:text="@string/titlePais" />
+
+   	<LinearLayout
+   	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content"
+	    android:orientation="horizontal" 
+	    android:padding="3dp" 
+	    android:layout_weight="1"
+   	    >
+
+   		<EditText
+   		    android:id="@+id/pais_editText"
+   		    android:layout_width="157dp"
+   		    android:layout_height="wrap_content"
+   		    android:ems="10"
+   		    android:gravity="center"
+   		    android:hint="@string/pais_Hint"
+   		    android:text="3"
+   		    android:layout_weight="1"
+   		    android:inputType="number" >
+
+   		    <requestFocus />
+   		</EditText>
+
+   		<TextView
+   		    android:id="@+id/pais_howMany"
+   		    android:layout_width="wrap_content"
+   		    android:layout_height="match_parent"
+   		    android:gravity="right|center_vertical"
+   		    android:layout_weight="1"
+   		    android:text="@string/pais_howMany"
+   		    android:textSize="17sp" />
+   	    
+   	</LinearLayout>
+ 
+   	<LinearLayout 
+   	 	    android:layout_weight="60"
+   	        android:layout_width="match_parent"
+    		android:layout_height="match_parent"
+    		android:orientation="vertical" >
+	 	 	
+	 	 	<ListView
+	 	 	    android:id="@+id/listView_pais"
+	 	 	    android:layout_width="match_parent"
+	 	 	    android:layout_height="match_parent" >
+
+	   		</ListView>
+   	 	    
+   	</LinearLayout>   
+   		
+       	
+   	<Button
+   	    android:id="@+id/pais_rand"
+   	    android:layout_weight="1"
+   	    android:layout_width="match_parent"
+   	    android:layout_height="wrap_content"
+   	    android:layout_gravity="bottom"
+   	    android:text="@string/pais_rand" />
+   	
+</LinearLayout>

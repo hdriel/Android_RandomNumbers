@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+   	android:id="@+id/linearLayourMainOTTH"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/titleOneTwoThree"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textSize="25sp"
+         android:layout_weight="1"
+        android:text="@string/titleOneTwoThree" />
+
+   	<LinearLayout
+   	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content"
+	    android:orientation="horizontal" 
+	    android:padding="3dp" 
+	    android:layout_weight="1"
+   	    >
+
+   		<EditText
+   		    android:id="@+id/OneTwoThree_edit_text"
+   		    android:layout_width="157dp"
+   		    android:layout_height="wrap_content"
+   		    android:ems="10"
+   		    android:gravity="center"
+   		    android:hint="@string/OneTwoThree_Hint"
+   		    android:text="5"
+   		    android:layout_weight="1"
+   		    android:inputType="number" >
+
+   		    <requestFocus />
+   		</EditText>
+
+   		<TextView
+   		    android:id="@+id/OneTwoThree_howMany"
+   		    android:layout_width="wrap_content"
+   		    android:layout_height="match_parent"
+   		    android:gravity="right|center_vertical"
+   		    android:layout_weight="1"
+   		    android:text="@string/OneTwoThree_howMany"
+   		    android:textSize="17sp" />
+   	    
+   	</LinearLayout>
+ 
+   	<LinearLayout 
+   	 	    android:layout_weight="60"
+   	        android:layout_width="match_parent"
+    		android:layout_height="match_parent"
+    		android:orientation="vertical" >
+	 	 	
+	 	 	<ListView
+	 	 	    android:id="@+id/listView_OTTH"
+	 	 	    android:layout_width="match_parent"
+	 	 	    android:layout_height="match_parent" >
+
+	   		</ListView>
+   	 	    
+   	</LinearLayout>   
+   		
+       	
+   	<Button
+   	    android:id="@+id/btn_one_two_three"
+   	    android:layout_weight="1"
+   	    android:layout_width="match_parent"
+   	    android:layout_height="wrap_content"
+   	    android:layout_gravity="bottom"
+   	    android:text="@string/OneTwoThree_rand" />
+   	
+</LinearLayout>

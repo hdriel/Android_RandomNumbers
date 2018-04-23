@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:text="@string/titleMain"
+        android:textSize="30sp" />
+
+    <HorizontalScrollView 
+        android:layout_width="match_parent"
+	    android:layout_height="match_parent"
+	    android:orientation="vertical" 
+        >
+        
+        <LinearLayout 
+           	 android:layout_width="match_parent"
+   			 android:layout_height="match_parent"
+   			 android:gravity="center"
+   			 android:orientation="horizontal" 
+            >
+            
+             <ImageButton
+		        android:id="@+id/ImageBotton_randomNumber"
+		        android:layout_weight="1"
+		        android:layout_width="200dp"
+		        android:layout_height="90dp"
+		        android:layout_margin="10dp"
+		        android:background="@drawable/random_number_generator2" />
+		     
+            <ImageButton
+		        android:id="@+id/ImageBotton_coin"
+		        android:layout_weight="1"
+		        android:layout_width="200dp"
+		        android:layout_height="90dp"
+		        android:layout_margin="10dp"
+		        android:background="@drawable/coin" />
+             
+            <ImageButton
+		        android:id="@+id/ImageBotton_cubes"
+		        android:layout_weight="1"
+		        android:layout_width="200dp"
+		        android:layout_height="90dp"
+		        android:layout_margin="10dp"
+		        android:background="@drawable/cube" />
+		     
+		    
+             <ImageButton
+		        android:id="@+id/ImageBotton_lotto"
+		        android:layout_width="200dp"
+		        android:layout_weight="1"
+		        android:layout_height="90dp"
+		        android:layout_margin="10dp"
+		        android:background="@drawable/lottery" />
+    
+		    <ImageButton
+		        android:id="@+id/ImageBotton_pais"
+		        android:layout_weight="1"
+		        android:layout_width="200dp"
+		        android:layout_height="90dp"
+		        android:layout_margin="10dp"
+		        android:background="@drawable/pais" />
+		    
+		    <ImageButton
+		        android:id="@+id/ImageBotton_chance"
+		        android:layout_width="200dp"
+		        android:layout_weight="1"
+		        android:layout_height="90dp"
+		        android:layout_margin="10dp"
+		        android:background="@drawable/chance" />
+		
+		    <ImageButton
+		        android:id="@+id/ImageBotton_b123"
+		        android:layout_weight="1"
+		        android:layout_width="200dp"
+		        android:layout_height="90dp"
+		        android:layout_margin="10dp"
+		        android:background="@drawable/onetothree" />
+        </LinearLayout>
+        
+    </HorizontalScrollView>
+   
+</LinearLayout>

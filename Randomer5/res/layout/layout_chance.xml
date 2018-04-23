@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+   	android:id="@+id/linearLayourMainChance"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/titleChance"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textSize="25sp"
+         android:layout_weight="1"
+        android:text="@string/titleChance" />
+
+   	<LinearLayout
+   	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content"
+	    android:orientation="horizontal" 
+	    android:padding="3dp" 
+	    android:layout_weight="1"
+   	    >
+
+   		<EditText
+   		    android:id="@+id/Chance_editText"
+   		    android:layout_width="157dp"
+   		    android:layout_height="wrap_content"
+   		    android:ems="10"
+   		    android:gravity="center"
+   		    android:hint="@string/Chance_Hint"
+   		    android:text="1"
+   		    android:layout_weight="1"
+   		    android:inputType="number" >
+
+   		    <requestFocus />
+   		</EditText>
+
+   		<TextView
+   		    android:id="@+id/Chance_howMany"
+   		    android:layout_width="wrap_content"
+   		    android:layout_height="match_parent"
+   		    android:gravity="right|center_vertical"
+   		    android:layout_weight="1"
+   		    android:text="@string/Chance_howMany"
+   		    android:textSize="14sp" />
+   	    
+   	</LinearLayout>
+ 
+   	<LinearLayout 
+   	 	    android:layout_weight="60"
+   	        android:layout_width="match_parent"
+    		android:layout_height="match_parent"
+    		android:orientation="vertical" >
+	 	 	
+	 	 	<ListView
+	 	 	    android:id="@+id/listView_chance"
+	 	 	    android:layout_width="match_parent"
+	 	 	    android:layout_height="match_parent" >
+
+	   		</ListView>
+   	 	    
+   	</LinearLayout>   
+   		
+       	
+   	<Button
+   	    android:id="@+id/btn_chance"
+   	    android:layout_weight="1"
+   	    android:layout_width="match_parent"
+   	    android:layout_height="wrap_content"
+   	    android:layout_gravity="bottom"
+   	    android:text="@string/Chance_rand" />
+   	
+</LinearLayout>
